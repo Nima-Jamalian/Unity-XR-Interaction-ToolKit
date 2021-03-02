@@ -64,7 +64,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AvatarInputMapper.cs" />
+    <Compile Include="Assets\Scripts\ControllerManager.cs" />
+    <Compile Include="Assets\Scripts\InputCapture.cs" />
     <Compile Include="Assets\Scripts\MovementController.cs" />
+    <Compile Include="Assets\Scripts\ShpereChangeColour.cs" />
     <None Include="Assets\Nima Game Materials\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Nima Game Materials\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Nima Game Materials\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -617,71 +621,93 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Management">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Oculus">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Oculus.Editor">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Nima/Unity Projects/Unity-XR-Interaction-ToolKit/Unity XR Interaction Toolkit/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
   </ItemGroup>
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.XR.Management.csproj">
+      <Project>{B63D9770-E270-BD7C-E80C-9F25DAB6702B}</Project>
+      <Name>Unity.XR.Management</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{DC63F7DB-49DB-76E9-A973-2CB64E9F9B49}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Subsystem.Registration.csproj">
+      <Project>{0D037EE4-941D-57A0-C1C9-7A4799A2F859}</Project>
+      <Name>Unity.Subsystem.Registration</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.csproj">
+      <Project>{74767242-3CB9-458B-93E4-E81A1684ACFC}</Project>
+      <Name>Unity.XR.Interaction.Toolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{6093C375-FE62-F693-EED6-464867A118FE}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Editor.csproj">
+      <Project>{8623ADC5-0D73-3449-17EF-83F39C633DD2}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{2E86542C-CEAA-3A2C-ED5D-21C0E854FDF0}</Project>
+      <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Oculus.csproj">
+      <Project>{8B0593A2-F2FF-7A41-1205-C9BE0BED5E52}</Project>
+      <Name>Unity.XR.Oculus</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{690DCD53-16DB-5498-6662-C6FBB3EEBDAE}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Oculus.Editor.csproj">
+      <Project>{C6B2564F-896F-F6BD-DA00-F71BAF53635D}</Project>
+      <Name>Unity.XR.Oculus.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{8DB3ADD6-BF03-5530-003B-8CF8E75042D8}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{A3032CEF-AD7A-10A4-CA0B-5F2A6BB83760}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
+      <Project>{C6BCBC4F-A1C3-6E51-5C7C-D64516E7A004}</Project>
+      <Name>Unity.CollabProxy.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
+      <Project>{FB0BA16D-266C-FF0A-DDAB-8A941E7972ED}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
+      <Project>{B42E4165-2207-C0E8-C9B3-AF0A4DAE4A25}</Project>
+      <Name>Unity.XR.Management.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{1C7B6D0A-5796-F3A1-7F3E-BE90C4C55212}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
+      <Project>{44ED2BE1-F769-A6A3-77B3-244C5D1CE022}</Project>
+      <Name>UnityEditor.SpatialTracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
+      <Project>{ED98CEE3-D60B-5EE1-57C9-49A02082777C}</Project>
+      <Name>UnityEngine.SpatialTracking</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{FA8D66E7-2F34-DD3B-1A51-EC84A2A3D538}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
+      <Project>{8AB15145-9D60-04B6-0F1B-DEB0E849ACC2}</Project>
+      <Name>UnityEditor.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{6DFADE90-A4D7-CCCF-651D-43E3CC436DA5}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
