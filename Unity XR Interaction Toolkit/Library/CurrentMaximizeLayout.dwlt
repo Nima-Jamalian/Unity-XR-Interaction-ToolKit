@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 14803
+  controlID: 147
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 421}
   m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 14772
+  controlID: 15
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,9 +205,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.18219924, y: 0.43818405, z: 2.255281}
+    m_Target: {x: 0.47508818, y: 1.4135816, z: -0.043964945}
     speed: 2
-    m_Value: {x: 0.18219924, y: 0.43818405, z: 2.255281}
+    m_Value: {x: 0.47508818, y: 1.4135816, z: -0.043964945}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -253,13 +253,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.09005769, y: 0.77542293, z: -0.11362845, w: -0.6145914}
+    m_Target: {x: -0.097279474, y: 0.8677703, z: -0.18768321, w: -0.449793}
     speed: 2
-    m_Value: {x: -0.09005655, y: 0.77541316, z: -0.11362701, w: -0.6145837}
+    m_Value: {x: -0.097278155, y: 0.8677585, z: -0.18768066, w: -0.4497869}
   m_Size:
-    m_Target: 1.548589
+    m_Target: 0.30739504
     speed: 2
-    m_Value: 1.548589
+    m_Value: 0.30739504
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 14804
+  controlID: 60
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -389,10 +389,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 966}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b4c1ffffb8e6ffff66e8ffff62fbffff0c3900002439000030390000
+      m_ExpandedIDs: cab9ffff54baffff2ec7ffff38c7ffff3ec7ffff4ec7ffff52c7ffff54c7ffff5ec7ffff64c7ffff6ac7ffff70c7ffff72c7ffff76c7ffff78c7ffff7ac7ffff7ec7ffff80c7ffff88c7ffff8ac7ffff8cc7ffff92c7ffff9ac7ffffa2c7ffffa4c7ffffa8c7ffffaac7ffffb8c7ffffc0c7ffffc2c7ffffd0c7ffffd2c7ffffdac7ffffdec7ffffe0c7ffffe2c7ffffe4c7ffffe6c7fffffcc7ffff02c8ffff04c8ffff14c8ffff16c8ffff18c8ffff1cc8ffff1ec8ffff22c8ffff36c8ffff3ec8ffff40c8ffff4cc8ffff50c8ffff52c8ffff54c8ffff68c8ffff0ef6ffff24f6ffff70f6ffffbaf6ffff62fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -435,8 +435,8 @@ MonoBehaviour:
     y: 596
     width: 464
     height: 351
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -481,11 +481,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Nima\Unity Projects\Unity-XR-Interaction-ToolKit\Unity XR
     Interaction Toolkit
@@ -493,9 +493,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 083a0000
-    m_LastClickedID: 14856
-    m_ExpandedIDs: 00000000dc390000de39000000ca9a3b
+    m_SelectedIDs: 8a3a0000
+    m_LastClickedID: 14986
+    m_ExpandedIDs: 000000008a3a00008c3a0000ae3b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -523,7 +523,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc390000de39000000ca9a3b
+    m_ExpandedIDs: 000000008a3a00008c3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -548,9 +548,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ca380000
-    m_LastClickedInstanceID: 14538
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: dcb8ffff
+    m_LastClickedInstanceID: -18212
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -603,7 +603,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 192}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 14678
+  controlID: 148
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -623,8 +623,8 @@ MonoBehaviour:
     y: 0
     width: 682
     height: 632
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -666,7 +666,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 14538
+  m_LastInspectedObjectInstanceID: -18212
   m_LastVerticalScrollValue: 0
 --- !u!114 &15
 MonoBehaviour:
